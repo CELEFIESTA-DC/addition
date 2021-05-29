@@ -23,7 +23,7 @@ import unittest
 from main import add
 class Tests(unittest.TestCase):
     def test(self):
-        self.assertEqual(add(1,2),3)
+        self.assertEqual(add(8,9),17)
 
         
 if __name__=='__main__':
